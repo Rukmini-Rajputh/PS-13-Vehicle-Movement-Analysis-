@@ -117,28 +117,17 @@ if __name__ == '__main__':
     main(video_source, output_video_path)
 
 ## 4. Results and Discussion
-**Results**
---The system successfully detected vehicles in real-time from the video feed.
---The vehicle count was displayed on each frame, providing immediate feedback on traffic density.
---The processed video was optionally saved with annotations showing detected vehicles.
+### Results
+- The system successfully detected vehicles in real-time from the video feed.
+- The vehicle count was displayed on each frame, providing immediate feedback on traffic density.
+- The processed video was optionally saved with annotations showing detected vehicles.
 
-**Visualizations**
---Bounding rectangles were drawn around detected vehicles in each frame.
---Real-time vehicle counts were displayed on the video frames.
+### Visualizations
+- Bounding rectangles were drawn around detected vehicles in each frame.
+- Real-time vehicle counts were displayed on the video frames.
 
-**Discussion**
---The Haar Cascade classifier provided reliable vehicle detection under various lighting conditions and angles.
---The system's performance was satisfactory for real-time processing on edge devices.
---Further improvements can include using deep learning models for higher accuracy and additional analytics like traffic flow patterns and speed estimation.
+### Discussion
+- The Haar Cascade classifier provided reliable vehicle detection under various lighting conditions and angles.
+- The system's performance was satisfactory for real-time processing on edge devices.
+- Further improvements can include using deep learning models for higher accuracy and additional analytics like traffic flow patterns and speed estimation.
 
-## 5. Conclusion
-This project demonstrates the feasibility of using edge AI techniques for real-time vehicle movement analysis in a college campus setting. The system successfully detects and counts vehicles, providing valuable insights into campus traffic dynamics. Future work can focus on enhancing detection accuracy with deep learning models, integrating additional sensors for comprehensive analysis, and developing a user-friendly interface for real-time monitoring.
-
-## Prerequisites to Run the Code
-To run the provided code, the following prerequisites are required:
-
-Python 3.x environment
-OpenCV library (cv2) installed (pip install opencv-python)
-Pre-trained Haar Cascade classifier for vehicle detection (vehicle_detection.xml)
-Video source (campus_traffic.mp4) providing simulated vehicle movement within the campus environment
-Ensure that all dependencies are installed and paths to the video source and pre-trained model are correctly specified in the code (main() function).
