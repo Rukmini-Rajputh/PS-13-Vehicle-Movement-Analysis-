@@ -1,4 +1,3 @@
-
 Project Title: Vehicle Movement Analysis and Insight Generation in College Campus Using EdgeAI
 
 Team Members:
