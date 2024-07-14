@@ -115,7 +115,8 @@ if __name__ == '__main__':
     video_source = 'campus_traffic.mp4'
     output_video_path = 'output_video.avi'  # Replace with None if no output video is needed
     main(video_source, output_video_path)
-# Results and Discussion
+
+## 4. Results and Discussion
 **Results**
 --The system successfully detected vehicles in real-time from the video feed.
 --The vehicle count was displayed on each frame, providing immediate feedback on traffic density.
@@ -129,10 +130,11 @@ if __name__ == '__main__':
 --The Haar Cascade classifier provided reliable vehicle detection under various lighting conditions and angles.
 --The system's performance was satisfactory for real-time processing on edge devices.
 --Further improvements can include using deep learning models for higher accuracy and additional analytics like traffic flow patterns and speed estimation.
-# Conclusion
+
+## 5. Conclusion
 This project demonstrates the feasibility of using edge AI techniques for real-time vehicle movement analysis in a college campus setting. The system successfully detects and counts vehicles, providing valuable insights into campus traffic dynamics. Future work can focus on enhancing detection accuracy with deep learning models, integrating additional sensors for comprehensive analysis, and developing a user-friendly interface for real-time monitoring.
 
-# Prerequisites to Run the Code
+## Prerequisites to Run the Code
 To run the provided code, the following prerequisites are required:
 
 Python 3.x environment
